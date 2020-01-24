@@ -1,16 +1,17 @@
-# ws2812 [![Build Status](https://travis-ci.org/Microsoft/pxt-ws2812b.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-ws2812b)
+# SK6812 [![Build Status](https://travis-ci.org/Microsoft/pxt-ws2812b.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-ws2812b)
 
-A driver for WS2812B programmable LEDs in MakeCode.
+A driver for SK6812 etc programmable LEDs in MakeCode.
+This is cloned from the Microsoft WS2812B driver to enable selective use of Bluetooth
 
 ## Usage
 
-The package exposes ``ws2812b.sendBuffer`` that bit-bangs a color buffer for WS2812B LEDs over a pin.
+The package exposes ``sk6812.sendBuffer`` that bit-bangs a color buffer for SK6812 type LEDs over a pin.
 
-See https://github.com/Microsoft/pxt-neopixel for an example of usage.
+See https://github.com/4tronix/smart-leds for an example of usage.
 
 ## ~ hint
  
-**Bluetooth disabled**: This package disables BLE as the real time requirements of the WS2812 conflict with the BLE stack.
+**Bluetooth NOT disabled**: This package does not disable BLE, so ensure it isnot active when BT is required
 
 ## ~
 
