@@ -7,7 +7,7 @@ This is cloned from the Microsoft WS2812B driver to enable selective use of Blue
 
 The package exposes ``sk6812.sendBuffer`` that bit-bangs a color buffer for SK6812 type LEDs over a pin.
 
-See https://github.com/4tronix/smart-leds for an example of usage.
+See https://github.com/4tronix/FireLed for an example of usage.
 
 ## ~ hint
  
