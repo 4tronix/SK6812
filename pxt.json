@@ -1,6 +1,6 @@
 {
     "name": "sk6812",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A driver for SK6812 etc programmable LEDs in MakeCode",
     "license": "MIT",
     "dependencies": {

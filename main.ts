@@ -1,5 +1,5 @@
 namespace sk6812 {
-    //% shim=asmSendBuffer
+    //% shim=sendBufferAsm
     export function sendBuffer(buf: Buffer, pin: DigitalPin) {
     }
 }
